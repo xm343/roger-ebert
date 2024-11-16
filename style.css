@@ -1,0 +1,419 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    z-index: 100;
+}
+.right button{
+    width: 80px;
+    height: 40px;
+    border-radius: 20px;
+    border-style: hidden;
+    background-color: burlywood;
+    color: beige;
+    margin-right: 30px;
+}
+.search{
+    display: flex;
+    align-items: center;
+    background-color: whitesmoke;
+    width: 200px;
+    height: 42px;
+    border-radius: 20px;
+}
+.search img{
+    width: 18px;
+
+}
+.search input{
+    width: 100%;
+    background: transparent;
+    padding: 2px;
+    border: 0;
+    outline: none;
+}
+.list ul{
+    display: flex;
+    list-style-type: none;
+    padding: 20px;
+    justify-content: space-between;
+    margin: 0 100px;
+    
+}
+.list ul a{
+    text-decoration: none;
+    color: black;
+    font-weight: 300;
+}
+.list ul a:hover{
+    color: burlywood;
+}
+
+.firstfilm{
+    display: flex;
+    background-color: rgb(235, 229, 204);
+    align-items: center;
+    margin: 0 5%;
+    height: 350px;
+    border-radius: 4px;
+}
+.film-stats ul{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+    list-style-type: none;
+}
+.film-stats ul button{
+    width: 60px;
+    height: 40px;
+    border-radius: 4px;
+    background-color: rgb(202, 173, 134);
+    color: white;
+    border-color:transparent;
+    margin-bottom: 20px;
+}
+.film-stats ul h4{
+    font-size: xx-large;
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+.film-stats ul img{
+    margin-bottom: 20px;
+}
+.film-stats ul p{
+    font-weight: 100;
+    margin-bottom: 20px;
+
+}
+.review{
+    display: flex;
+    align-items:center;
+}
+.brian{
+    width: 50px;
+    border-radius:50%;
+    margin-right: 5px;
+    
+}
+.review p{
+    color: burlywood;
+}
+
+
+.hr {
+    margin: 30px auto;
+    width: 54px;
+    border: none; 
+    height: 7px;
+    border-radius: 20px; 
+    background-color: burlywood;
+}
+.nowplaying{
+    margin: 30px auto;
+    font-size: x-large;
+    width: 130px;
+}
+.filmlist1,.filmlist2,.filmlist3{
+    display: flex;
+    margin: 0 5%;
+}
+.film1,.film2,.film3,.film4,.film5,.film6,.film7,.film8,.film9,.film10,.film11,.film12{
+    position: relative;
+   margin-right: 30px; 
+}
+
+.filmlist1 img,.filmlist2 img,.filmlist3 img{
+    width: 320px;
+    height: 200px;
+    border-radius: 4px;   
+}
+.dir{
+    position: absolute;
+    top: 80%;
+    right: 0;
+    z-index: 50;
+    color:  rgb(252, 252, 255);
+    font-size: large;
+}
+.star1{
+    position: absolute;
+    top: 60%;
+    left: 0;
+}
+.star1 img{
+    width: 130px;
+    height: 100px;
+}
+.name{
+    position: absolute;
+    left: 0;
+    top: 60%;
+    color: #fff;
+    font-size: x-large;
+}
+.blog{
+    margin: 20px auto;
+    font-size:  x-large;
+    width: 140px;
+}
+.firstfilm1{
+    display: flex;
+    background-color: rgb(235, 229, 204);
+    align-items: center;
+    margin: 0 5%;
+    height: 350px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+.film-stats1 ul{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+    list-style-type: none;
+}
+.film-stats1 h4{
+    font-size: xx-large;
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+.film-stats1 ul p{
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+.review1{
+    display: flex;
+    align-items:center;
+}
+.issac{
+    width: 50px;
+    border-radius:50%;
+    margin-right: 5px;
+    
+}
+.container{
+    display: flex;
+    margin: 5% 5%;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 75%;
+    flex-wrap: wrap;
+    
+}
+.row{
+    display: flex;
+    flex-direction: row; 
+}
+.ad{
+    display: flex;
+    flex-basis: 25%;
+}
+.feature{
+    margin-right: 20px;
+    
+}
+.feature img{
+    width: 300px;
+}
+.title{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: burlywood;
+}
+.para{
+    font-size: x-large;
+}
+.time{
+    color: darkgray;
+}
+.gojira,.arcane,.screenshot,.mason,.tribe,.hit,.tiff,.omen,.three{
+    height: 169px;
+}
+
+.viewall{
+    display: flex;
+    justify-content: center;
+}
+.viewall button{
+    margin: 20px auto;
+    width: 90px;
+    height: 50px;
+    background-color: rgb(215, 162, 92);
+    border: none;
+    border-radius: 30px;
+    color: aliceblue;
+}
+.reviewcollections p {
+    margin: 20px auto;
+    font-size: x-large;
+    width: 300px; 
+    text-align: center;
+}
+.cinema{
+    font-size: x-large;
+}
+.stars1{
+    width: 100px;
+}
+.verimg{
+    margin-right: 20px;
+}
+.verimg1{
+    width: 320px;
+    margin-right: 20px;
+    height: 472px;
+}
+.feature1 p{
+    color: burlywood;
+}
+.popularrev{
+    margin: 20px auto;
+    font-size:  x-large;
+    width: 170px;
+}
+.feature2{
+    position: relative;
+}
+.thumb{
+    width: 130px;
+    position: absolute;
+    top: 180px;
+    right: 100px;
+}
+.second{
+    width: 320px;
+    height: 472px;
+    margin-right: 20px;
+}
+.gradient{
+    width: 320px;
+    height: 472px;
+    position: absolute;
+    background-color: black;
+    opacity: 0.5;
+}
+.critic{
+    color: burlywood;
+}
+.container4{
+    background-color: black;
+    width: 1500px;
+    height: 400px;
+    position: relative;
+}
+.container4 img{
+    width: 100px;
+    position: absolute;
+    top: 30%;
+    right: 50%;
+}
+.container4 p{
+    color: #fff;
+    font-size: x-large;
+    position: absolute;
+    top: 60%;
+    right: 40%;
+}
+.search1{
+    display: flex;
+    align-items: center;
+    background-color:black;
+    width:600px;
+    height: 42px;
+    border-radius: 20px;
+    margin-right: 20px;
+}
+.email{
+    width: 100%;
+    background: transparent;
+    padding: 2px;
+    width: 100%;
+    height: 42px;
+    background: transparent;
+    padding: 2px;
+    border-radius: 20px;
+    border-color: burlywood;
+}
+.searchandbutton{
+    display: flex;
+    position: absolute;
+    top: 70%;   
+    right: 25%;
+}
+.searchandbutton button{
+    width: 100px;
+    height: 45px;
+    border-radius: 20px;
+    border-style: hidden;
+    background-color: burlywood;
+    color: beige;
+}
+.container5{
+    display: flex;
+    margin: 5% 5%;
+    flex-direction: row;
+}
+.container5 ul a{
+    display: flex;
+    flex-direction: column;
+    color: rgb(60, 46, 46);
+    margin-bottom: 10px;
+}
+.container5 ul{
+    margin-right: 90px;    
+}
+.container5 ul li{
+    list-style-type: none;
+    font-size: large;
+    margin-bottom: 10px;
+}
+.inbettween{
+    width: 130px;
+}
+.social{
+    display: flex;
+}
+.social img{
+    width: 20px;
+    margin-right: 5px;
+}
+.container6{
+    display: flex;
+    justify-content: center;
+}
+.lovedmovies{
+    font-size: large;
+    margin-right: 20px;
+}
+.memory{
+    font-style: italic;
+}
+.container7 ul{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    right: 30%;
+}
+.container7 ul li{
+    list-style-type: none;
+    margin-right: 10px;
+}
+.container7 ul a{
+    margin-right: 10px;
+    color: rgb(26, 22, 22);
+}
+.container7{
+    height: 70px;
+    position: relative;
+}
